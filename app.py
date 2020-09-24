@@ -13,6 +13,7 @@ logger = get_logger(__name__)
 
 @app.route('/api/v1/ocr', methods=['POST'])
 def do_search_api():
+    output = {"nothing": "nothing"}
     args = reqparse.RequestParser(). \
         add_argument("urls", type=str). \
         add_argument("base64", type=str). \
@@ -20,15 +21,11 @@ def do_search_api():
     if "urls" in args.keys():
         urls = args['urls']
         output = get_ocr_answer(urls=urls)
-        logger.info(output)
-        if output:
-            return jsonify(output)
     if "base64" in args.keys():
         base64 = args['base64']
         output = get_ocr_answer(image_base64=base64)
-        if output:
-            return jsonify(output)
-    return "not found", 400
+
+    return jsonify({"output": output})
 
 
 if __name__ == "__main__":
