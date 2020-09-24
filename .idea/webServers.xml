@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f7fe1fea-c423-461d-a42b-80a8a552e964" name="paddle_ocr_server" url="http:///">
+      <webServer id="45cfa2ff-17f3-4dfc-a68d-a557c2eb7a2b" name="paddle_ocr_server" url="http:///">
         <fileTransfer accessType="SFTP" host="10.33.43.29" port="22" sshConfigId="34e0b407-bc6b-487b-b089-a069d4705d72" sshConfig="yanguangqing@10.33.43.29:22 password" />
       </webServer>
     </option>

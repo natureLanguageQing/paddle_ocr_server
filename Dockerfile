@@ -13,7 +13,7 @@ RUN apt install libgl1-mesa-glx -y
 
 COPY . /usr/src/app
 
-EXPOSE 8008
+EXPOSE 2020
 
 
 CMD python app.py

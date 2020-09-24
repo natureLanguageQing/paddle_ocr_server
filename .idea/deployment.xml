@@ -5,11 +5,18 @@
       <paths name="paddle_ocr_server">
         <serverdata>
           <mappings>
-            <mapping deploy="/ml/home/yanguangqing/program" local="$PROJECT_DIR$" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="root@111.44.254.178:46415">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yanguangqing@10.33.43.29:22 (1)">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
