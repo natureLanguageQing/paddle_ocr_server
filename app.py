@@ -1,12 +1,14 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_cors import CORS
 from flask_restful import reqparse
 
-from ocr_center.paddle_ocr import get_ocr_answer
+from ocr_center.paddle_ocr import get_ocr_answer, get_logger
 
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False
 CORS(app)
+
+logger = get_logger(__name__)
 
 
 @app.route('/api/v1/ocr', methods=['POST'])
@@ -18,13 +20,14 @@ def do_search_api():
     if "urls" in args.keys():
         urls = args['urls']
         output = get_ocr_answer(urls=urls)
+        logger.info(output)
         if output:
-            return {"output": output}
+            return jsonify(output)
     if "base64" in args.keys():
         base64 = args['base64']
-        output = get_ocr_answer(base64=base64)
+        output = get_ocr_answer(image_base64=base64)
         if output:
-            return {"output": output}
+            return jsonify(output)
     return "not found", 400
 
 

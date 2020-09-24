@@ -37,17 +37,17 @@ def get_logger(name, log_file=LOG_FILE, level=LOG_LEVEL):
 logger = get_logger(__name__)
 
 
-def get_ocr_answer(urls=None, base64=""):
+def get_ocr_answer(urls=None, image_base64=""):
     images = []
     if urls and isinstance(urls, str):
-        img_ndarray = _cvimg_from_url(urls)
-        images.append(img_ndarray)
+        img_nd_array = _cv_img_from_url(urls)
+        images.append(img_nd_array)
     if urls and isinstance(urls, list):
         for i in urls:
-            img_ndarray = _cvimg_from_url(i)
-            images.append(img_ndarray)
-    if base64 and isinstance(base64, str):
-        img_nd_array = _cvimg_from_base64(base64)
+            img_nd_array = _cv_img_from_url(i)
+            images.append(img_nd_array)
+    if image_base64 and isinstance(image_base64, str):
+        img_nd_array = _cv_img_from_base64(image_base64)
         images.append(img_nd_array)
 
     start_time = time.time()
@@ -55,6 +55,7 @@ def get_ocr_answer(urls=None, base64=""):
         print("start ocr")
         result = []
         for i in images:
+            print(i)
             ocr_result = ocr.ocr(i)
             print("ocr_result", ocr_result)
             result.append(ocr_result)
@@ -62,16 +63,12 @@ def get_ocr_answer(urls=None, base64=""):
         return result
 
 
-def _cvimg_from_path(image_path):
-    try:
-        img = cv2.imread(image_path)
-        return img
+def _cv_img_from_base64(image):
+    """
 
-    except Exception as e:
-        logger.error("can't read image file!error{}", e)
-
-
-def _cvimg_from_base64(image):
+    :param image:图片的base64编码
+    :return:
+    """
     try:
         if image.startswith("data:image/"):
             image = image.split(",")[1]
@@ -84,13 +81,15 @@ def _cvimg_from_base64(image):
         logger.error("base64 decode failed!")
 
 
-def _cvimg_from_url(image_url):
+def _cv_img_from_url(image_url):
     """
 
-    :param image:
+    :param image_url: 图片对应的地址
     :return:
     """
     try:
+        print(image_url)
+        logger.info("base64 decode failed!{}", image_url)
 
         req = request.Request(url=image_url, headers={"User-Agent": "Python 3.6"})
         with request.urlopen(req) as res:
