@@ -37,8 +37,10 @@ def get_logger(name, log_file=LOG_FILE, level=LOG_LEVEL):
 logger = get_logger(__name__)
 
 
-def get_ocr_answer(urls=None, image_base64=""):
+def get_ocr_answer(urls=None):
     images = []
+    result = []
+
     if urls and isinstance(urls, str):
         img_nd_array = _cv_img_from_url(urls)
         images.append(img_nd_array)
@@ -46,21 +48,13 @@ def get_ocr_answer(urls=None, image_base64=""):
         for i in urls:
             img_nd_array = _cv_img_from_url(i)
             images.append(img_nd_array)
-    if image_base64 and isinstance(image_base64, str):
-        img_nd_array = _cv_img_from_base64(image_base64)
-        images.append(img_nd_array)
 
     start_time = time.time()
     if images:
-        print("start ocr")
-        result = []
-        for i in images:
-            print(i)
-            ocr_result = ocr.ocr(i)
-            print("ocr_result", ocr_result)
-            result.append(ocr_result)
+        ocr_result = ocr.ocr(img=images)
+        result.append(ocr_result)
         print("end_time", time.time() - start_time)
-        return result
+    return result
 
 
 def _cv_img_from_base64(image):
@@ -88,9 +82,7 @@ def _cv_img_from_url(image_url):
     :return:
     """
     try:
-        print(image_url)
-        logger.info("base64 decode failed!{}", image_url)
-
+        logger.info("base64 decode failed!{}".format(image_url))
         req = request.Request(url=image_url, headers={"User-Agent": "Python 3.6"})
         with request.urlopen(req) as res:
             img = np.asarray(bytearray(res.read()), dtype=np.uint8)

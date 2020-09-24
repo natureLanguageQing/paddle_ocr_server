@@ -16,14 +16,10 @@ def do_search_api():
     output = {"nothing": "nothing"}
     args = reqparse.RequestParser(). \
         add_argument("urls", type=str). \
-        add_argument("base64", type=str). \
         parse_args()
     if "urls" in args.keys():
         urls = args['urls']
         output = get_ocr_answer(urls=urls)
-    if "base64" in args.keys():
-        base64 = args['base64']
-        output = get_ocr_answer(image_base64=base64)
 
     return jsonify({"output": output})
 
