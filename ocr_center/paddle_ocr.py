@@ -21,14 +21,15 @@ def get_ocr_answer(urls=None):
             images.append(img_nd_array)
 
     if images:
-        ocr_result = ocr.ocr(img=images)
-        for line in ocr_result:
-            result_ocr_dict.append(
-                {"left_top": line[0][0],
-                 "left_button": line[0][1],
-                 "right_top": line[0][2],
-                 "right_button": line[0][3],
-                 "word": line[1][0]})
+        for image in images:
+            ocr_result = ocr.ocr(img=image)
+            for line in ocr_result:
+                result_ocr_dict.append(
+                    {"left_top": line[0][0],
+                     "left_button": line[0][1],
+                     "right_top": line[0][2],
+                     "right_button": line[0][3],
+                     "word": line[1][0]})
     return result_ocr_dict
 
 
@@ -57,7 +58,7 @@ def _cv_img_from_url(image_url):
     :return:
     """
     try:
-        logger.info("base64 decode failed!{}".format(image_url))
+        logger.info("down loading!{}".format(image_url))
         req = request.Request(url=image_url, headers={"User-Agent": "Python 3.6"})
         with request.urlopen(req) as res:
             img = np.asarray(bytearray(res.read()), dtype=np.uint8)
