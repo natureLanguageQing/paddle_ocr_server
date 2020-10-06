@@ -1,6 +1,4 @@
 import base64
-import logging
-import os
 import time
 from urllib import request
 
@@ -8,38 +6,12 @@ import cv2
 import numpy as np
 
 from ocr_center import ocr
-
-LOG_LEVEL = logging.INFO
-LOG_DIR = "log"
-LOG_FILE = "ocr.log"
-
-
-def get_logger(name, log_file=LOG_FILE, level=LOG_LEVEL):
-    logger = logging.getLogger(name)
-    logger.setLevel(level)
-    logsh = logging.StreamHandler()
-    logsh.setLevel(level)
-    formatter = logging.Formatter('[%(asctime)s] [%(name)s] [%(levelname)s] %(message)s')
-    logsh.setFormatter(formatter)
-    logger.addHandler(logsh)
-
-    # file log
-    if not os.path.isdir(LOG_DIR):
-        os.mkdir(LOG_DIR)
-    logfl = logging.FileHandler(os.path.join(LOG_DIR, log_file),
-                                mode="w+", encoding="utf-8")
-    logfl.setLevel(level)
-    logfl.setFormatter(formatter)
-    logger.addHandler(logfl)
-    return logger
-
-
-logger = get_logger(__name__)
+from ocr_center.utils import logger
 
 
 def get_ocr_answer(urls=None):
     images = []
-    result = []
+    result_ocr_dict = []
 
     if urls and isinstance(urls, str):
         img_nd_array = _cv_img_from_url(urls)
@@ -49,12 +21,16 @@ def get_ocr_answer(urls=None):
             img_nd_array = _cv_img_from_url(i)
             images.append(img_nd_array)
 
-    start_time = time.time()
     if images:
         ocr_result = ocr.ocr(img=images)
-        result.append(ocr_result)
-        print("end_time", time.time() - start_time)
-    return result
+        for line in ocr_result:
+            result_ocr_dict.append(
+                {"left_top": line[0][0],
+                 "left_button": line[0][1],
+                 "right_top": line[0][2],
+                 "right_button": line[0][3],
+                 "word": line[1][0]})
+    return result_ocr_dict
 
 
 def _cv_img_from_base64(image):
