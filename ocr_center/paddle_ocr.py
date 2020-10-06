@@ -1,5 +1,4 @@
 import base64
-import time
 from urllib import request
 
 import cv2

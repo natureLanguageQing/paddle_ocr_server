@@ -1,3 +1,6 @@
+import logging
+import os
+
 LOG_LEVEL = logging.INFO
 LOG_DIR = "log"
 LOG_FILE = "ocr.log"
@@ -24,4 +27,3 @@ def get_logger(name, log_file=LOG_FILE, level=LOG_LEVEL):
 
 
 logger = get_logger(__name__)
-
