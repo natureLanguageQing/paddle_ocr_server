@@ -25,5 +25,19 @@ def do_search_api():
     return jsonify({"output": output})
 
 
+@app.route('/api/base64/ocr', methods=['POST'])
+def do_search_api():
+    output = {"nothing": "nothing"}
+    args = reqparse.RequestParser(). \
+        add_argument("base64", type=str). \
+        parse_args()
+    if "base64" in args.keys():
+        urls = args['base64']
+        output = get_ocr_answer(urls=urls)
+
+    return jsonify({"output": output})
+
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=2020)

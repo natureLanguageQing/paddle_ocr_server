@@ -33,6 +33,28 @@ def get_ocr_answer(urls=None):
     return result_ocr_dict
 
 
+def get_base64_ocr_result(base64):
+    """
+    
+    :param base64:
+    :return:
+    """
+    result_ocr_dict = []
+
+    nd_image = _cv_img_from_base64(base64)
+    if nd_image:
+        for image in nd_image:
+            ocr_result = ocr.ocr(img=image)
+            for line in ocr_result:
+                result_ocr_dict.append(
+                    {"left_top": line[0][0],
+                     "left_button": line[0][1],
+                     "right_top": line[0][2],
+                     "right_button": line[0][3],
+                     "word": line[1][0]})
+    return result_ocr_dict
+
+
 def _cv_img_from_base64(image):
     """
 
