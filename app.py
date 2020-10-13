@@ -1,3 +1,5 @@
+from datetime import time
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask_restful import reqparse
@@ -21,7 +23,6 @@ def do_search_api():
     if "urls" in args.keys():
         urls = args['urls']
         output = get_ocr_answer(urls=urls)
-
     return jsonify({"output": output})
 
 
