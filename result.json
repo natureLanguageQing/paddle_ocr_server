@@ -1,0 +1,1555 @@
+{
+    "code": 200,
+    "datas": [
+        {
+            "page": 1,
+            "score": 0.96,
+            "img_size": {
+                "height": 1684,
+                "width": 1190
+            },
+            "url": "https://file.miaomore.com/medicalReport/3ce7bc98-0a0d-11eb-bfe9-701ce7ba90b8_1.png",
+            "data": [
+                {
+                    "item_name": "通用匹配",
+                    "list_items": [
+                        {
+                            "key_w": "检查机构",
+                            "key_l": null,
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 526,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "基本信息",
+                                "classification1": "",
+                                "classification1Alias": "",
+                                "classification2": "",
+                                "classification2Alias": "",
+                                "itemName": "检查机构",
+                                "itemNameAlias": null,
+                                "frontName": "检查机构",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "字符串",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539533000,
+                                "updateTime": 1582539533000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "检查日期",
+                            "key_l": null,
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 525,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "基本信息",
+                                "classification1": "",
+                                "classification1Alias": "",
+                                "classification2": "",
+                                "classification2Alias": "",
+                                "itemName": "检查时间",
+                                "itemNameAlias": "体检时间、体检日期、检查日期、报告日期",
+                                "frontName": "检查时间",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "日期",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539533000,
+                                "updateTime": 1582539533000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "尿素氮肌酐比",
+                            "key_l": {
+                                "height": 31,
+                                "left": 321,
+                                "top": 54,
+                                "width": 515
+                            },
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 130,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肾功",
+                                "classification2Alias": "",
+                                "itemName": "尿素氮肌酐比",
+                                "itemNameAlias": "UREA/CREA、Cr/Urea、BUN/CREA、Ur/Cr、UR/CR、",
+                                "frontName": "UREA/CREA",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肾功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "姓名",
+                            "key_l": {
+                                "height": 21,
+                                "left": 812,
+                                "top": 101,
+                                "width": 201
+                            },
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 508,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "基本信息",
+                                "classification1": "",
+                                "classification1Alias": "",
+                                "classification2": "",
+                                "classification2Alias": "",
+                                "itemName": "姓名",
+                                "itemNameAlias": null,
+                                "frontName": "姓名",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "字符串",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539533000,
+                                "updateTime": 1582539533000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "癌胚抗原测定",
+                            "key_l": {
+                                "height": 28,
+                                "left": 92,
+                                "top": 157,
+                                "width": 119
+                            },
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 199,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "肿瘤标志物",
+                                "classification1Alias": "",
+                                "classification2": "肿瘤标志物",
+                                "classification2Alias": "",
+                                "itemName": "癌胚抗原测定",
+                                "itemNameAlias": "CEA、CEA定量、癌胚抗原、癌胚抗原定量",
+                                "frontName": "癌胚抗原",
+                                "unit": "μg/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 1.0,
+                                        "unit": "ng/ml"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肿瘤",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "癌胚抗原测定",
+                            "key_l": {
+                                "height": 23,
+                                "left": 100,
+                                "top": 231,
+                                "width": 89
+                            },
+                            "value_w": "0.887",
+                            "value_l": {
+                                "height": 21,
+                                "left": 479,
+                                "top": 228,
+                                "width": 60
+                            },
+                            "map_k": {
+                                "id": 199,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "肿瘤标志物",
+                                "classification1Alias": "",
+                                "classification2": "肿瘤标志物",
+                                "classification2Alias": "",
+                                "itemName": "癌胚抗原测定",
+                                "itemNameAlias": "CEA、CEA定量、癌胚抗原、癌胚抗原定量",
+                                "frontName": "癌胚抗原",
+                                "unit": "μg/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 1.0,
+                                        "unit": "ng/ml"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肿瘤",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "甲胎蛋白测定",
+                            "key_l": {
+                                "height": 28,
+                                "left": 92,
+                                "top": 301,
+                                "width": 123
+                            },
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 200,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "肿瘤标志物",
+                                "classification1Alias": "",
+                                "classification2": "肿瘤标志物",
+                                "classification2Alias": "",
+                                "itemName": "甲胎蛋白测定",
+                                "itemNameAlias": "血清甲胎蛋白、AFP、AFP定量、甲胎蛋白、甲胎蛋白定量",
+                                "frontName": "甲胎蛋白定量",
+                                "unit": "μg/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 1.0,
+                                        "unit": "ng/ml"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肿瘤",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "甲胎蛋白测定",
+                            "key_l": {
+                                "height": 31,
+                                "left": 98,
+                                "top": 370,
+                                "width": 89
+                            },
+                            "value_w": "0.014",
+                            "value_l": {
+                                "height": 23,
+                                "left": 481,
+                                "top": 375,
+                                "width": 61
+                            },
+                            "map_k": {
+                                "id": 200,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "肿瘤标志物",
+                                "classification1Alias": "",
+                                "classification2": "肿瘤标志物",
+                                "classification2Alias": "",
+                                "itemName": "甲胎蛋白测定",
+                                "itemNameAlias": "血清甲胎蛋白、AFP、AFP定量、甲胎蛋白、甲胎蛋白定量",
+                                "frontName": "甲胎蛋白定量",
+                                "unit": "μg/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 1.0,
+                                        "unit": "ng/ml"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肿瘤",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "肝",
+                            "key_l": {
+                                "height": 28,
+                                "left": 92,
+                                "top": 447,
+                                "width": 101
+                            },
+                            "value_w": null,
+                            "value_l": null,
+                            "map_k": {
+                                "id": 357,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "物理",
+                                "classification1": "内科",
+                                "classification1Alias": "",
+                                "classification2": "",
+                                "classification2Alias": "",
+                                "itemName": "肝",
+                                "itemNameAlias": "肝、肝脏触诊、肝大小、肝脏质地、肝脏压痛、肝大、肝胆、肝脏、肝部",
+                                "frontName": "肝",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "字符串",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539530000,
+                                "updateTime": 1582539530000,
+                                "count": 1
+                            },
+                            "level": null,
+                            "judgmentType": null,
+                            "keywords": [],
+                            "keywordsAlise": []
+                        },
+                        {
+                            "key_w": "血清丙氨酸氨基转移酶测定",
+                            "key_l": {
+                                "height": 26,
+                                "left": 100,
+                                "top": 519,
+                                "width": 110
+                            },
+                            "value_w": null,
+                            "value_l": {
+                                "height": 21,
+                                "left": 503,
+                                "top": 522,
+                                "width": 21
+                            },
+                            "map_k": {
+                                "id": 121,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清丙氨酸氨基转移酶测定",
+                                "itemNameAlias": "ALT、血清丙氨酸转氨酶、血清谷丙转氨酶、丙氨酸氨基转移酶、谷丙转氨酶",
+                                "frontName": "谷丙转氨酶",
+                                "unit": "U/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 16.67,
+                                        "unit": "U/L"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清天冬氨酸氨基转移酶测定",
+                            "key_l": {
+                                "height": 26,
+                                "left": 98,
+                                "top": 559,
+                                "width": 112
+                            },
+                            "value_w": "22",
+                            "value_l": {
+                                "height": 25,
+                                "left": 502,
+                                "top": 557,
+                                "width": 22
+                            },
+                            "map_k": {
+                                "id": 122,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清天冬氨酸氨基转移酶测定",
+                                "itemNameAlias": "AST、XAST、血清天冬氨酸转氨酶、血清谷草转氨酶、GOT、天门冬氨酸氨基转移酶、谷草转氨酶、门冬氨酸氨基转移酶",
+                                "frontName": "谷草转氨酶",
+                                "unit": "U/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 16.67,
+                                        "unit": "U/L"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清γ-谷氨酰基转移酶测定",
+                            "key_l": {
+                                "height": 26,
+                                "left": 102,
+                                "top": 598,
+                                "width": 163
+                            },
+                            "value_w": "10",
+                            "value_l": {
+                                "height": 21,
+                                "left": 502,
+                                "top": 598,
+                                "width": 24
+                            },
+                            "map_k": {
+                                "id": 124,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清γ-谷氨酰基转移酶测定",
+                                "itemNameAlias": "GGT、XGGT、γ-GT、γ-谷氨酰转移酶、血清γ-谷氨酰转移酶、γ-谷氨酰转肽酶、γ-谷氨酰基转移酶",
+                                "frontName": "γ-谷氨酰基转移酶",
+                                "unit": "U/L",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清总胆红素测定",
+                            "key_l": {
+                                "height": 28,
+                                "left": 98,
+                                "top": 636,
+                                "width": 91
+                            },
+                            "value_w": "15.1",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 636,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 116,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清总胆红素测定",
+                                "itemNameAlias": "TB、XTBI、TBIL、T-BIL、TBiL、总胆红素",
+                                "frontName": "总胆红素",
+                                "unit": "μmol/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 17.1,
+                                        "unit": "mg/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清直接胆红素测定",
+                            "key_l": {
+                                "height": 26,
+                                "left": 98,
+                                "top": 677,
+                                "width": 113
+                            },
+                            "value_w": "2.9",
+                            "value_l": {
+                                "height": 24,
+                                "left": 492,
+                                "top": 675,
+                                "width": 41
+                            },
+                            "map_k": {
+                                "id": 117,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清直接胆红素测定",
+                                "itemNameAlias": "DBIL、D-BIL、DB、DBiL、结合胆红素、CB、直接胆红素",
+                                "frontName": "直接胆红素",
+                                "unit": "μmol/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 17.1,
+                                        "unit": "mg/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清间接胆红素测定",
+                            "key_l": {
+                                "height": 27,
+                                "left": 96,
+                                "top": 715,
+                                "width": 115
+                            },
+                            "value_w": "12.20",
+                            "value_l": {
+                                "height": 28,
+                                "left": 481,
+                                "top": 712,
+                                "width": 65
+                            },
+                            "map_k": {
+                                "id": 118,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清间接胆红素测定",
+                                "itemNameAlias": "IBIL、I-BIL、IDBIL、IB、非结合胆红素、UCB、间接胆红素",
+                                "frontName": "间接胆红素",
+                                "unit": "μmol/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 17.1,
+                                        "unit": "mg/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清总蛋白测定",
+                            "key_l": {
+                                "height": 28,
+                                "left": 98,
+                                "top": 752,
+                                "width": 69
+                            },
+                            "value_w": "73.5",
+                            "value_l": {
+                                "height": 23,
+                                "left": 489,
+                                "top": 754,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 112,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清总蛋白测定",
+                                "itemNameAlias": "TP、总蛋白",
+                                "frontName": "总蛋白",
+                                "unit": "g/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 10.0,
+                                        "unit": "g/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清白蛋白测定",
+                            "key_l": {
+                                "height": 23,
+                                "left": 98,
+                                "top": 794,
+                                "width": 67
+                            },
+                            "value_w": "43.1",
+                            "value_l": {
+                                "height": 28,
+                                "left": 485,
+                                "top": 789,
+                                "width": 56
+                            },
+                            "map_k": {
+                                "id": 113,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清白蛋白测定",
+                                "itemNameAlias": "ALB、Alb、白蛋白",
+                                "frontName": "白蛋白",
+                                "unit": "g/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 10.0,
+                                        "unit": "g/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清球蛋白测定",
+                            "key_l": {
+                                "height": 23,
+                                "left": 98,
+                                "top": 833,
+                                "width": 67
+                            },
+                            "value_w": "30.40",
+                            "value_l": {
+                                "height": 23,
+                                "left": 483,
+                                "top": 831,
+                                "width": 59
+                            },
+                            "map_k": {
+                                "id": 114,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清球蛋白测定",
+                                "itemNameAlias": "GLO、GLB、GLOB、DGLO、球蛋白、血清球蛋白",
+                                "frontName": "球蛋白",
+                                "unit": "g/L",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清碱性磷酸酶测定",
+                            "key_l": {
+                                "height": 27,
+                                "left": 98,
+                                "top": 871,
+                                "width": 112
+                            },
+                            "value_w": "47",
+                            "value_l": {
+                                "height": 18,
+                                "left": 500,
+                                "top": 873,
+                                "width": 24
+                            },
+                            "map_k": {
+                                "id": 125,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清碱性磷酸酶测定",
+                                "itemNameAlias": "ALP、血清碱性磷酸酶、碱性磷酸酶",
+                                "frontName": "碱性磷酸酶",
+                                "unit": "U/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.1667,
+                                        "unit": "U/L"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "转氨酶比值",
+                            "key_l": {
+                                "height": 21,
+                                "left": 98,
+                                "top": 912,
+                                "width": 80
+                            },
+                            "value_w": "2.00",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 910,
+                                "width": 52
+                            },
+                            "map_k": {
+                                "id": 123,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "转氨酶比值",
+                                "itemNameAlias": "AST/ALT、ST/AL、AST/AL、谷草/谷丙",
+                                "frontName": "转氨酶比值",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血清白蛋白/球蛋白",
+                            "key_l": {
+                                "height": 37,
+                                "left": 94,
+                                "top": 941,
+                                "width": 77
+                            },
+                            "value_w": "1.42",
+                            "value_l": {
+                                "height": 26,
+                                "left": 489,
+                                "top": 949,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 115,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "生化检查",
+                                "classification1Alias": "",
+                                "classification2": "肝功",
+                                "classification2Alias": "",
+                                "itemName": "血清白蛋白/球蛋白",
+                                "itemNameAlias": "白球蛋白比例、A/G、白球比、白蛋白/球蛋白、白/球比值",
+                                "frontName": "白球比",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "肝功、生化",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "白细胞计数",
+                            "key_l": {
+                                "height": 28,
+                                "left": 96,
+                                "top": 1094,
+                                "width": 73
+                            },
+                            "value_w": "3.93",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 1094,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 3,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "白细胞计数",
+                                "itemNameAlias": "WBC、白细胞、白细胞总数",
+                                "frontName": "白细胞计数",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm 3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "中性粒细胞百分比",
+                            "key_l": {
+                                "height": 21,
+                                "left": 100,
+                                "top": 1134,
+                                "width": 173
+                            },
+                            "value_w": "53.40",
+                            "value_l": {
+                                "height": 28,
+                                "left": 481,
+                                "top": 1131,
+                                "width": 63
+                            },
+                            "map_k": {
+                                "id": 5,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "中性粒细胞百分比",
+                                "itemNameAlias": "中性粒细胞分叶核百分比、中性细胞百分比、嗜中性粒细胞百分率、Neu%、NEUT%、%NEU、NEU%、NEU-R、%GRAN、中性粒细胞比值、中性细胞比率",
+                                "frontName": "中性粒细胞百分比",
+                                "unit": "%",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "淋巴细胞百分比",
+                            "key_l": {
+                                "height": 27,
+                                "left": 98,
+                                "top": 1171,
+                                "width": 156
+                            },
+                            "value_w": "42.00",
+                            "value_l": {
+                                "height": 28,
+                                "left": 483,
+                                "top": 1170,
+                                "width": 63
+                            },
+                            "map_k": {
+                                "id": 7,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "淋巴细胞百分比",
+                                "itemNameAlias": "Lym%、LYMPH%、Lymph%、%LYM、LYM%、LYM-R、淋巴细胞百分率、淋巴细胞比值、淋巴细胞比率",
+                                "frontName": "淋巴细胞百分比",
+                                "unit": "%",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "单核细胞百分比",
+                            "key_l": {
+                                "height": 21,
+                                "left": 100,
+                                "top": 1213,
+                                "width": 152
+                            },
+                            "value_w": "3.30",
+                            "value_l": {
+                                "height": 28,
+                                "left": 485,
+                                "top": 1208,
+                                "width": 54
+                            },
+                            "map_k": {
+                                "id": 11,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "单核细胞百分比",
+                                "itemNameAlias": "单核细胞百分率、Mon%、MONO%、%MON、MON%、MONO-R、单核细胞比值",
+                                "frontName": "单核细胞百分比",
+                                "unit": "%",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "嗜酸性粒细胞百分比",
+                            "key_l": {
+                                "height": 27,
+                                "left": 100,
+                                "top": 1250,
+                                "width": 154
+                            },
+                            "value_w": "0.80",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 1250,
+                                "width": 52
+                            },
+                            "map_k": {
+                                "id": 9,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "嗜酸性粒细胞百分比",
+                                "itemNameAlias": "嗜酸性粒细胞百分率、Eos%、EO%、%EOS、EOS%、EOS-R、嗜酸细胞百分比、嗜酸性粒细胞比值",
+                                "frontName": "嗜酸细胞百分比",
+                                "unit": "%",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "嗜碱性粒细胞百分比",
+                            "key_l": {
+                                "height": 26,
+                                "left": 100,
+                                "top": 1289,
+                                "width": 156
+                            },
+                            "value_w": "0.50",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 1289,
+                                "width": 52
+                            },
+                            "map_k": {
+                                "id": 13,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "嗜碱性粒细胞百分比",
+                                "itemNameAlias": "嗜碱性粒细胞百分率、Bas%、BASO%、%BAS、BAS%、BASO-R、嗜碱细胞百分比、嗜碱性粒细胞比值",
+                                "frontName": "嗜碱细胞百分比",
+                                "unit": "%",
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "中性粒细胞直接计数",
+                            "key_l": {
+                                "height": 27,
+                                "left": 98,
+                                "top": 1327,
+                                "width": 179
+                            },
+                            "value_w": "2.10",
+                            "value_l": {
+                                "height": 21,
+                                "left": 481,
+                                "top": 1329,
+                                "width": 58
+                            },
+                            "map_k": {
+                                "id": 4,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "中性粒细胞直接计数",
+                                "itemNameAlias": "中性粒细胞分叶核绝对值、中性细胞数、嗜中性粒细胞绝对值、Neu#、NEUT#、#NEU、NEU#、NEU、#GRAN、中性粒细胞绝对值",
+                                "frontName": "中性粒细胞绝对值",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "淋巴细胞直接计数",
+                            "key_l": {
+                                "height": 21,
+                                "left": 100,
+                                "top": 1370,
+                                "width": 154
+                            },
+                            "value_w": "1.65",
+                            "value_l": {
+                                "height": 19,
+                                "left": 485,
+                                "top": 1368,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 6,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "淋巴细胞直接计数",
+                                "itemNameAlias": "Lym#、LYMPH#、Lymph#、#LYM、LYM#、LYM、淋巴细胞绝对值、淋巴细胞数",
+                                "frontName": "淋巴细胞绝对值",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "单核细胞直接计数",
+                            "key_l": {
+                                "height": 27,
+                                "left": 100,
+                                "top": 1406,
+                                "width": 156
+                            },
+                            "value_w": "0.13",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 1406,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 10,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "单核细胞直接计数",
+                                "itemNameAlias": "单核细胞数、Mon#、MONO#、MON、#MON、MON#、MONO、单核细胞绝对值、单核细胞",
+                                "frontName": "单核细胞绝对值",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "嗜酸粒细胞直接计数",
+                            "key_l": {
+                                "height": 26,
+                                "left": 100,
+                                "top": 1445,
+                                "width": 156
+                            },
+                            "value_w": "0.03",
+                            "value_l": {
+                                "height": 23,
+                                "left": 487,
+                                "top": 1445,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 8,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "嗜酸粒细胞直接计数",
+                                "itemNameAlias": "嗜酸性粒细胞数、嗜酸粒细胞、Eos#、EO#、EOS、#EOS、EOS#、嗜酸性粒细胞绝对值、嗜酸细胞绝对值、嗜酸性粒细胞、嗜酸粒细胞绝对值",
+                                "frontName": "嗜酸细胞绝对值",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "嗜碱粒细胞直接计数",
+                            "key_l": {
+                                "height": 26,
+                                "left": 98,
+                                "top": 1484,
+                                "width": 158
+                            },
+                            "value_w": "0.02",
+                            "value_l": {
+                                "height": 22,
+                                "left": 487,
+                                "top": 1484,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 12,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "嗜碱粒细胞直接计数",
+                                "itemNameAlias": "嗜碱性粒细胞数、Bas#、BASO#、BAS、#BAS、BAS#、BASO、嗜碱性粒细胞绝对值、嗜碱细胞绝对值、嗜碱性粒细胞、嗜碱粒细胞绝对值",
+                                "frontName": "嗜碱细胞绝对值",
+                                "unit": "10^9/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.001,
+                                        "unit": "/mm3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "红细胞计数",
+                            "key_l": {
+                                "height": 28,
+                                "left": 96,
+                                "top": 1522,
+                                "width": 73
+                            },
+                            "value_w": "4.45",
+                            "value_l": {
+                                "height": 17,
+                                "left": 487,
+                                "top": 1526,
+                                "width": 50
+                            },
+                            "map_k": {
+                                "id": 2,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "红细胞计数",
+                                "itemNameAlias": "RBC、红细胞数、红细胞检查、红细胞",
+                                "frontName": "红细胞计数",
+                                "unit": "10^12/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 0.01,
+                                        "unit": "万/mm 3"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "血红蛋白测定",
+                            "key_l": {
+                                "height": 23,
+                                "left": 100,
+                                "top": 1564,
+                                "width": 85
+                            },
+                            "value_w": "140.00",
+                            "value_l": {
+                                "height": 22,
+                                "left": 479,
+                                "top": 1562,
+                                "width": 69
+                            },
+                            "map_k": {
+                                "id": 1,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "实验室",
+                                "classification1": "常规检查",
+                                "classification1Alias": "",
+                                "classification2": "血常规",
+                                "classification2Alias": "",
+                                "itemName": "血红蛋白测定",
+                                "itemNameAlias": "HGB、Hb、HB、血红蛋白、血红蛋白浓度",
+                                "frontName": "血红蛋白",
+                                "unit": "g/L",
+                                "otherUnit": [
+                                    {
+                                        "conversion_ratio": 10.0,
+                                        "unit": "g/dl"
+                                    }
+                                ],
+                                "allowResult": null,
+                                "valueType": "数字",
+                                "assignmentRule": "",
+                                "usefulLife": 180,
+                                "auxiliaryPositioning": "血常规",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539526000,
+                                "updateTime": 1582539526000,
+                                "count": 1
+                            }
+                        },
+                        {
+                            "key_w": "心脏",
+                            "key_l": {
+                                "height": 24,
+                                "left": 169,
+                                "top": 1610,
+                                "width": 189
+                            },
+                            "value_w": "健康从这里开始",
+                            "value_l": {
+                                "height": 31,
+                                "left": 736,
+                                "top": 1610,
+                                "width": 221
+                            },
+                            "map_k": {
+                                "id": 353,
+                                "baseNumber": "",
+                                "state": 1,
+                                "baseType": "物理",
+                                "classification1": "内科",
+                                "classification1Alias": "",
+                                "classification2": "",
+                                "classification2Alias": "",
+                                "itemName": "心脏",
+                                "itemNameAlias": "心、心血管系统、心脏视诊、心脏触诊、心脏叩诊、心脏听诊",
+                                "frontName": "心脏",
+                                "unit": null,
+                                "otherUnit": null,
+                                "allowResult": null,
+                                "valueType": "字符串",
+                                "assignmentRule": "",
+                                "usefulLife": 0,
+                                "auxiliaryPositioning": "",
+                                "gender": "",
+                                "auditUser": "",
+                                "commitUser": "",
+                                "createTime": 1582539530000,
+                                "updateTime": 1582539530000,
+                                "count": 1
+                            },
+                            "level": null,
+                            "judgmentType": null,
+                            "keywords": [],
+                            "keywordsAlise": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "msg": "success"
+}
