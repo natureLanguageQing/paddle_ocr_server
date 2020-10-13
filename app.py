@@ -26,7 +26,7 @@ def do_search_api():
 
 
 @app.route('/api/base64/ocr', methods=['POST'])
-def do_search_api():
+def do_base_api():
     output = {"nothing": "nothing"}
     args = reqparse.RequestParser(). \
         add_argument("base64", type=str). \
