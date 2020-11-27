@@ -4,6 +4,6 @@ flask~=1.1.2
 flask_restful
 psycopg2-binary
 paddleocr~=1.0.0
-paddlepaddle==1.8.4
+paddlepaddle-gpu==1.8.4.post107
 opencv-python~=4.4.0.42
 requests~=2.24.0

@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 COPY requirements.txt /usr/src/app/
 
-RUN pip3 install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
+RUN pip3 install -r requirements.txt 
 
 RUN apt update
 

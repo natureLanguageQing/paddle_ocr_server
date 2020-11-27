@@ -13,7 +13,11 @@ def get_ocr_answer(urls=None):
     result_ocr_dict = []
 
     if urls and isinstance(urls, str):
+
         img_nd_array = _cv_img_from_url(urls)
+        if isinstance(img_nd_array,Exception ):
+            return {"异常":"下载失败"}
+
         images.append(img_nd_array)
     if urls and isinstance(urls, list):
         for i in urls:
@@ -29,7 +33,8 @@ def get_ocr_answer(urls=None):
                      "left_button": line[0][1],
                      "right_top": line[0][2],
                      "right_button": line[0][3],
-                     "word": line[1][0]})
+                     "word": line[1][0],
+                     "score": line[1][1]})
     return result_ocr_dict
 
 
@@ -89,4 +94,4 @@ def _cv_img_from_url(image_url):
 
     except Exception as e:
         logger.error("url {} data invalid!".format(image_url))
-        print(e)
+        return e
